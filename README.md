@@ -1,4 +1,4 @@
 # Cootels
 landing page using javascript
 
-![Cootels](https://github.com/maxlepesij/Cootels/blob/main/img/website-preview-Cootels.jpg)
+![Cootels](https://github.com/maxlepesij/Cootels/blob/main/website-preview-Cootels.jpg)
