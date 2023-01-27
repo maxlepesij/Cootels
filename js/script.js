@@ -32,5 +32,5 @@ new Swiper('.image-slider', {
     },
     autoHeight: true,
     loop: true,
-    speed: 600,
+    speed: 200,
 });
