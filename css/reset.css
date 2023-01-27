@@ -63,4 +63,9 @@ body._lock{
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	background-color: #fff;
+}
+.wrapper._theme{
+	background-color: #0D0D11;
+	color: rgba(255, 255, 255, 0.531);
 }

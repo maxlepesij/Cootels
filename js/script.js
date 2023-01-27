@@ -1,5 +1,13 @@
 "use strict"
 
+const theme = document.querySelector('.header__themes');
+const wrapper = document.querySelector('.wrapper');
+if(theme){
+    theme.addEventListener("click", function(e){
+        wrapper.classList.toggle('_theme');
+    });
+}
+
 const iconMenu = document.querySelector('.menu__icon');
 const menuBody = document.querySelector('.menu__body');
 const menulink = document.querySelectorAll('.menu__link');
@@ -9,7 +17,7 @@ if (iconMenu){
         iconMenu.classList.toggle('_active');
         menuBody.classList.toggle('_active');
     });
-}
+};
 
 
 let menuArrows = document.querySelectorAll('.menu-room__item');
@@ -20,9 +28,9 @@ if (menuArrows){
             menuArrow.addEventListener("click", function(e) {
                 menuArrow.classList.toggle('_active');
             });
-        }
-    }
-}
+        };
+    };
+};
 
 
 new Swiper('.image-slider', {
@@ -34,3 +42,5 @@ new Swiper('.image-slider', {
     loop: true,
     speed: 200,
 });
+
+
